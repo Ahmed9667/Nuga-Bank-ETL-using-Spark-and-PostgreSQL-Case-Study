@@ -18,6 +18,7 @@ improved data integrity and consistency.
 ● Load the cleaned and normalized dataset into a PostgreSQL server for
 further analysis and reporting
 
+![image](https://github.com/user-attachments/assets/70753503-a8dd-433b-b460-ac5827e799dd)
 
 ## Project Scope:
 #### ● Data Extraction:
