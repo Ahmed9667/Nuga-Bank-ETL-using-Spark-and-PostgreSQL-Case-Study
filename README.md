@@ -34,9 +34,6 @@ inconsistencies.
 ● PostgreSQL Server: Load the cleaned and normalized dataset into a PostgreSQL server for further analysis and
 reporting.
 ```
-# Loading the dataset into a Postgresql DB
-
-# define database connection parameters
 db_params =  {
     'username' : 'postgres',
     'password' : 'ahly9667',
