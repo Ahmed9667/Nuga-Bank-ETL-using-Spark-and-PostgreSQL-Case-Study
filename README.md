@@ -67,3 +67,10 @@ print('tables and data loaded successfully ')
 
 ## ERD Schema:
 ![image](https://github.com/user-attachments/assets/6a163fce-3a64-44b2-a476-1a13d05e8f55)
+
+## ✅ Key Takeaways
+- Hands-on experience building an end-to-end data pipeline.
+
+- Practical use of PySpark transformations and SQL window functions.
+
+- Integration of big data processing with traditional RDBMS analytics.
