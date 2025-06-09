@@ -9,28 +9,28 @@ decision-making.
 
 ## Objectives:
 ### ● The primary objectives for this project are to:
-○ Implement an automated data exploration and cleaning solution using
+● Implement an automated data exploration and cleaning solution using
 PySpark to streamline the process.
 
-○ Normalize the dataset into a suitable database format (2NF or 3NF) for
+● Normalize the dataset into a suitable database format (2NF or 3NF) for
 improved data integrity and consistency.
 
-○ Load the cleaned and normalized dataset into a PostgreSQL server for
+● Load the cleaned and normalized dataset into a PostgreSQL server for
 further analysis and reporting
 
 
 ## Project Scope:
 #### ● Data Extraction:
-○ Spark Context Engine: Setup a Spark Context Engine for distributed computing.
-○ Load CSV: Use PySpark to load the CSV file into a Spark DataFrame.
+● Spark Context Engine: Setup a Spark Context Engine for distributed computing.
+● Load CSV: Use PySpark to load the CSV file into a Spark DataFrame.
 
 #### ● Data Transformation:
-○ Data Cleaning: Utilize PySpark to clean and preprocess the dataset, handling missing values, duplicates, and
+● Data Cleaning: Utilize PySpark to clean and preprocess the dataset, handling missing values, duplicates, and
 inconsistencies.
-○ Normalization: Transform the dataset into a suitable normalized form (2NF or 3NF) for database storage.
+● Normalization: Transform the dataset into a suitable normalized form (2NF or 3NF) for database storage.
 
 #### ● Data Loading:
-○ PostgreSQL Server: Load the cleaned and normalized dataset into a PostgreSQL server for further analysis and
+● PostgreSQL Server: Load the cleaned and normalized dataset into a PostgreSQL server for further analysis and
 reporting.
 
 ## ERD Schema:
