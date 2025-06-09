@@ -33,6 +33,34 @@ inconsistencies.
 #### ● Data Loading:
 ● PostgreSQL Server: Load the cleaned and normalized dataset into a PostgreSQL server for further analysis and
 reporting.
+```
+# Loading the dataset into a Postgresql DB
+
+# define database connection parameters
+db_params =  {
+    'username' : 'postgres',
+    'password' : 'ahly9667',
+    'host' : 'localhost',
+    'port' : '5432',
+    'database' : 'nuga'
+}
+
+# define the database connection url with db parameters
+db_url = f"postgresql://{db_params['username']}:{db_params['password']}@{db_params['host']}:{db_params['port']}/{db_params['database']}"
+
+# Create the database engine with the  db url
+engine = create_engine(db_url)
+
+# Connect to PostgreSQL server
+with engine.connect() as connection:
+    # Create tables and load the data
+    transaction.to_sql('transaction', connection, index=False, if_exists='replace')
+    customer.to_sql('customer', connection, index=False, if_exists='replace')
+    employee.to_sql('employee', connection, index=False, if_exists='replace')
+    fact_table.to_sql('fact_table', connection, index=False, if_exists='replace')
+
+print('tables and data loaded successfully ')
+```
 
 ## ERD Schema:
 ![image](https://github.com/user-attachments/assets/6a163fce-3a64-44b2-a476-1a13d05e8f55)
