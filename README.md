@@ -18,7 +18,6 @@ improved data integrity and consistency.
 ○ Load the cleaned and normalized dataset into a PostgreSQL server for
 further analysis and reporting
 
-![Untitled Diagram drawio](https://github.com/user-attachments/assets/bac117eb-6b7f-47a4-9ce6-eb06a4a89c15)
 
 ## Project Scope:
 #### ● Data Extraction:
@@ -35,4 +34,4 @@ inconsistencies.
 reporting.
 
 ## ERD Schema:
-![schema](https://github.com/user-attachments/assets/96f07295-c710-4d64-a679-27c3593ab4d3)
+![image](https://github.com/user-attachments/assets/6a163fce-3a64-44b2-a476-1a13d05e8f55)
