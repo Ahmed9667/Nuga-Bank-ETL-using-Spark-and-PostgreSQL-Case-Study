@@ -7,6 +7,12 @@ case study delves into the project, outlining how Nuga Bank leveraged
 PySpark to streamline data preparation, enabling better insights and
 decision-making.
 
+## 🔧 Technologies Used
+- **PySpark** – for distributed data processing.
+- **PostgreSQL** – for relational data storage and analysis.
+- **Jupyter Notebook** – for prototyping and iterative development.
+- **SQL** – for analytical queries and insights generation.
+
 ## Objectives:
 ### ● The primary objectives for this project are to:
 ● Implement an automated data exploration and cleaning solution using
